@@ -6,7 +6,7 @@ We were asked to choose a research question and use MIMIC-III database (https://
 Our curiosity led us to explore the field of sepsis, which is an overreaction of the immune system to an infection and that causes lots of hospital deaths. The objective of the project was to develop a machine learning model that was able to predict whether a patient admitted to the ICU had sepsis or not. 
 
 ### METHODOLOGY
-- Dataset creation: Our university (URV) gave us access to the mimic-III database and we used SQL to select and merge information from the different tables. You can find the dataset used as "data.xlsx". There are several sheets in the excel file, so in order to read it in Python, remember to choose this option: sheet_name="full" to show the full dataset. The SQL code used to get the dataset used in this project can be found in the repository under the name **"EHR_dataset_creation_and_ML_groupA.ipynb"**.
+- Dataset creation: Our university (URV) gave us access to the mimic-III database and we used SQL to select and merge information from the different tables. You can find the dataset used as **"data.xlsx"**. There are several sheets in the excel file, so in order to read it in Python, remember to choose this option: sheet_name="full" to show the full dataset. The SQL code used to get the dataset used in this project can be found in the repository under the name **"EHR_dataset_creation_and_ML_groupA.ipynb"**.
 
 - Exploratory data anlysis: This was done with Python and the objective was to gain valuabe insights on the data. Some specific variables that we thought were related with sepsis were studied and examined. The steps and the code followed can be found in **"EHR_data_analysis_groupA.ipynb"**.
   
