@@ -10,10 +10,10 @@ Our curiosity led us to explore the field of sepsis, which is an overreaction of
 
 - Exploratory data anlysis: This was done with Python and the objective was to gain valuabe insights on the data. Some specific variables that we thought were related with sepsis were studied and examined. The steps and the code followed can be found in **"EHR_data_analysis_groupA.ipynb"**.
   
-- Modelling and prediction: In this part the data was preparated before the prediction model creation (label encoding, NaN imputing and normalization were attempted). The data was divided into train and test set and three algporithms were built and evaluated: XGBclassifier, Neural Network and K-nearest neighbours. Metrics like f1 score, AUC_ROC, recall and others were used to evaluate the models. 
+- Modelling and prediction: In this part the data was preparated before the prediction model creation (label encoding, NaN imputing and normalization were attempted). The data was divided into train and test set and three algporithms were built and evaluated: XGBclassifier, Neural Network and K-nearest neighbours. Metrics like f1 score, AUC_ROC, recall and others were used to evaluate the models. The processing, training and evaluation of the algorithm can be found in this file: **"EHR_dataset_creation_and_ML_groupA.ipynb"**. 
 
 ### RESULTS AND DISCUSSION
 The exporatory data anlysis revealed that sepsis patients exhibit higher heart rate, respiratory rate, creatinine, bilirubin, and lactate levels. However, some kind of standarization of the mean values would be interesting for further results. 
-The results obtained have been surprisingly high given the low correlation values. The best algorithm was the XGBclassifier with an f1 score of 0,756. The processing, training and evaluation of the algorithm can be found in this file: **"EHR_dataset_creation_and_ML_groupA.ipynb"**. 
+The results obtained have been surprisingly high given the low correlation values. The best algorithm was the XGBclassifier with an f1 score of 0,756. 
 
 For a deeper discussion and more details on the methodology and the results feel free to read the paper named **"EHR_A3_Report_GroupA"** from the repository, where you will gain a better understanding and representation of the project. 
